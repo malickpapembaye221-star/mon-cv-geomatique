@@ -1,8 +1,6 @@
 import streamlit as st
-
 # Configuration de la page
 st.set_page_config(page_title="CV | Malick Pape MBAYE", page_icon="💎", layout="centered")
-
 # --- STYLE CSS PERSONNALISÉ (THÈME MINÉRAL & OR) ---
 st.markdown("""
     <style>
@@ -10,7 +8,6 @@ st.markdown("""
     .stApp {
         background: linear-gradient(135deg, #e0e0e0 0%, #bdc3c7 100%);
     }
-    
     /* Cartes Glassmorphism avec bordure dorée */
     .main-card {
         background: rgba(255, 255, 255, 0.9);
@@ -21,7 +18,6 @@ st.markdown("""
         margin-bottom: 20px;
         color: #2c3e50;
     }
-
     /* Badges de compétences dorés */
     .skill-badge {
         display: inline-block;
@@ -139,4 +135,5 @@ with c3:
 st.divider()
 if st.button("🚀 DISCUTONS DE VOTRE PROJET"):
     st.balloons()
+
     st.success("Appelez-moi au 76 533 80 65 pour une collaboration immédiate !")
